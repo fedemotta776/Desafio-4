@@ -1,3 +1,11 @@
+@keyframes efecto {
+    0%{ width: 1800px;}
+    25%{ width:1780px;}
+    50%{ width:1760px;} 
+    75%{ width:1780px;}
+    100%{ width:1800px;}
+}
+
      #styleGral{
         display: grid;
         grid-template-areas: "header header" 
@@ -171,10 +179,3 @@
         color: white;
     }
 
-    @keyframes efecto {
-        0%{ width: 1800px;}
-        25%{ width:1780px;}
-        50%{ width:1760px;} 
-        75%{ width:1780px;}
-        100%{ width:1800px;}
-    }
